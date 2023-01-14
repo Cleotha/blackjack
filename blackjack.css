@@ -1,32 +1,43 @@
 button{
-	background-color: goldenrod;
     width: 300px;
     padding: 10px 70px;
     font-size: x-large;
     font-weight: bold;
-    color: #016f32;
+    color: white;
     border-radius: 3px;
     border: 0;
     display: flex;
     flex-direction: row;
     margin: 4px auto;
 }
-button:hover{
+#start-el:hover{
+    background-color: blue;
+} 
+#end-el:hover{
+    background-color: red;
+} 
+#new-el:hover{
     background-color: gold;
-}
-button:active{
-    background-color: yellow;
 }
 body{
     font-size: x-large;
     text-align: center;
     background-color: green;
-    color: white;
+    color:whitesmoke;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h1{
-    color: goldenrod;
+    color: orange;
 }
 #message-el{
     font-style: italic;
+}
+#start-el{
+    background-color: rgb(28, 28, 222);
+}
+#end-el{
+    background-color: rgb(233, 20, 20);
+}
+#new-el{
+	background-color: rgb(246, 179, 9);
 }
